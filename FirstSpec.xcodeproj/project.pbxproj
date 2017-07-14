@@ -10,6 +10,8 @@
 		D730DDC01F18D5950042F32C /* FirstSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D730DDB61F18D5950042F32C /* FirstSpec.framework */; };
 		D730DDC51F18D5950042F32C /* FirstSpecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D730DDC41F18D5950042F32C /* FirstSpecTests.m */; };
 		D730DDC71F18D5950042F32C /* FirstSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = D730DDB91F18D5950042F32C /* FirstSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D730DDD21F18D7100042F32C /* FirstSpecClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D730DDD01F18D7100042F32C /* FirstSpecClass.h */; };
+		D730DDD31F18D7100042F32C /* FirstSpecClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D730DDD11F18D7100042F32C /* FirstSpecClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		D730DDBF1F18D5950042F32C /* FirstSpecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstSpecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D730DDC41F18D5950042F32C /* FirstSpecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstSpecTests.m; sourceTree = "<group>"; };
 		D730DDC61F18D5950042F32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D730DDD01F18D7100042F32C /* FirstSpecClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstSpecClass.h; sourceTree = "<group>"; };
+		D730DDD11F18D7100042F32C /* FirstSpecClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSpecClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				D730DDB91F18D5950042F32C /* FirstSpec.h */,
+				D730DDD01F18D7100042F32C /* FirstSpecClass.h */,
+				D730DDD11F18D7100042F32C /* FirstSpecClass.m */,
 				D730DDBA1F18D5950042F32C /* Info.plist */,
 			);
 			path = FirstSpec;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D730DDC71F18D5950042F32C /* FirstSpec.h in Headers */,
+				D730DDD21F18D7100042F32C /* FirstSpecClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D730DDD31F18D7100042F32C /* FirstSpecClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +396,7 @@
 				D730DDCC1F18D5950042F32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D730DDCD1F18D5950042F32C /* Build configuration list for PBXNativeTarget "FirstSpecTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +405,7 @@
 				D730DDCF1F18D5950042F32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
